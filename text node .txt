@@ -1,0 +1,7 @@
+text node 
+comment node 
+element node 
+
+first child 
+last child 
+children
