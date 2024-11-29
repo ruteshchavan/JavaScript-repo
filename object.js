@@ -5,6 +5,7 @@ let student= {
 };
 
 /* 
+object is collection of variables
 to access only particular value form student object - object[key] (student["name"])   or  object.name (student.name)
 to update any key - student[name]= "raja singh";
                     student[age] = student[age] + 1
