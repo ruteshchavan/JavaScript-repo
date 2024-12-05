@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="bag.css">
+</head>
+<body>
+
+  <button id="a" 
+  onclick="cnt++;
+  document.querySelector('#ab').innerText=`Your bag has ${cnt} item's`;">
+  Add to Bag</button>
+
+  <button id="b" 
+  onclick="ws++;
+  document.querySelector('#bc').innerText=`Your bag has ${ws} wishlist item's`;">
+  Move to Whishlist</button>
+
+  <button id="c"
+  onclick="cnt=0; ws=0;
+  document.querySelector('#bc').innerText=`Your bag has ${ws} wishlist item's`;
+  document.querySelector('#ab').innerText=`Your bag has ${cnt} item's`;"
+  >Reset</button>
+  
+  <h2 id="ab"></h2>
+  <h2 id="bc"></h2>
+
+  <script>
+    let cnt=0;
+    let ws=0;
+    document.querySelector('#ab').innerText=`Your bag has ${cnt} item's`;
+    document.querySelector('#bc').innerText=`Your bag has ${cnt} wishlist item's`;
+  </script>
+
+</body>
+</html>
