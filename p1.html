@@ -24,8 +24,10 @@
     document.querySelector('#a1').innerText=name;
 
     let cartTotal=Math.round( ((4500-(10/100*4500))-150) + ((2000-(15/100*2000)-250)) );
+    console.log(cartTotal);
     console.log( eval('10*2-10+50') );  // eval method to convert string calculation into result.
 
+    document.getElementById('a1').innerHTML='Total = '+cartTotal;
   </script>
 </body>
 </html>
