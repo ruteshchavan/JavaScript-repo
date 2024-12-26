@@ -40,4 +40,8 @@ let str2="js";
 let s="hello" + 123;  // string concatination
 console.log(s)
 let res=str.concat(str2);  // it will concate 2 string.
-console.log(res)
+console.log(res);
+
+let x="hello";
+console.log(x.replace("h","y"));  // replace character in string.
+console.log(x.charAt(3));  // print character of specifc index.
