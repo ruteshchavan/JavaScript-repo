@@ -25,10 +25,9 @@ console.log(call(20,30));
 
 
 function degree(x) {
-  let f=(9/5)*x + 32;
+  let f=((9/5)*x) + 32;
   return f;
 }
-
 console.log(degree(20));
 
 
