@@ -6,6 +6,7 @@ let student= {
         console.log(`Welcome to ${student.college}`);
     }
 };
+console.log(student);
 console.log(student.name);
 student.message();
 

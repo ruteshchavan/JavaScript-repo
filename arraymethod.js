@@ -4,6 +4,7 @@
     toString()- convert an array to string
     shift()- delete element at start of array.
     unshift()- add element start of an array
+    sort()- sorts the array.
     map()-creates new array with the reults of some operation.
           value its callback returns are used to form new array. 
     filter()-creates a new array that give true for a condition/filter.
@@ -29,6 +30,11 @@ console.log(food);
 //shift()
 let y=food.shift();
 console.log(food);
+
+let num=[7,2,9,5,1];
+console.log(num);
+num.sort();
+console.log(num);
 
 //map()
 let x=[10,20,30];
