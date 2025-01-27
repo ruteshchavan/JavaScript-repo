@@ -8,11 +8,17 @@ function mul(c,d) {
     return c*d; 
 }
 
-const ArrowSum= (a,b)=> {
-    console.log(a+b);
-};
+const ArrowSum= (a,b)=> console.log(a+b) ;
+ArrowSum(4,5)
 
-const ArrowMul= (c,d)=> {
-    console.log(c*d);
-};
+const ArrowMul= (c,d) => console.log(c*d);
+ArrowMul(4,5)
+
+
+// a concise way to write anonymous function using arrow function.
+let a = (x,y) => x+y;
+console.log(a(5,10));
+
+let square=(num) => num*num;
+console.log(square(10));    
 

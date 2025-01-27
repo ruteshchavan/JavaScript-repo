@@ -16,7 +16,7 @@ arr.forEach(val => {
 let city=['pune','kolhapur','mumbai'];
 
 city.forEach((val , index ,city   ) => {     // 3 parameters value / index  / array (optional)
-    console.log(val.toUpperCase() , index , city);
+    console.log(val.toUpperCase() , index );
 });
 
 
