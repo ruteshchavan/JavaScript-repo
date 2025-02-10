@@ -1,7 +1,8 @@
 /* array methods :
     push()- add elements in array at end
     pop() - delete element from end and return 
-    toString()- convert an array to string
+    toString()- convert an array to string.
+    concat() - used to join two strings.
     shift()- delete element at start of array.
     unshift()- add element start of an array
     sort()- sorts the array.
@@ -22,6 +23,10 @@ console.log(del);
 
 //toString()
 console.log(food.toString());
+
+//concat()
+let dish=["grapes","chickoo"];
+console.log(dish.concat(food));
 
 //unShift()
 food.unshift("pineapple");

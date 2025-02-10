@@ -1,4 +1,5 @@
 // arrow function - compact way of writing function. i.e writing function in smaller way.
+// arrow functions were introduced in modern js.
 
 function sum(a,b) {
     return a+b;

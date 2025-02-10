@@ -1,6 +1,7 @@
 // callback : callback is a function passed as an argument to another fucntion. 
 // foreach in array will pass each element of array to the function.
 // higher order function/method - are functions either take another function as a parameter or return another function as output.
+// foreach is used for only array.
 /* syntax :
              array_name.forEach(element => {
 
