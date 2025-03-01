@@ -4,22 +4,19 @@ Qs. Create a toggle button that changes the screen to dark-mode when clicked &li
 */
 
 let bt=document.querySelector("button");
-let mode="light";  // variable created to check the mode.
+let mode="white";  // variable created to check the mode.
 
 bt.addEventListener("click", () =>{
-    if(mode==="light"){
+    if(mode==="white"){
         mode="dark";
         document.querySelector("body").style.backgroundColor="black";
-        // document.querySelector("button").style.backgroundColor="black";
-        // document.querySelector("button").style.color="white";
-
-
+        
     }
+    
     else{
-        mode="light";
+        mode="white";
         document.querySelector("body").style.backgroundColor="white";
-        // document.querySelector("button").style.backgroundColor="white";
-        // document.querySelector("button").style.color="black";
+        
     }
 
     console.log(mode);
