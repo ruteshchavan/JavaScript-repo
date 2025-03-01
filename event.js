@@ -1,5 +1,9 @@
 // the change in the state of an object is known as event.
 
+/* 
+syntax :
+node.event=() => {}
+*/
 
 let a=document.querySelector("#a1");
 
@@ -7,3 +11,4 @@ let a=document.querySelector("#a1");
 a.onclick= () =>{
   console.log('hello');
 }
+
