@@ -30,13 +30,13 @@ console.log(val);
 
 
 // anonymous function - function defined without a name , often assigned to a variable is called anonymous function.
-// we can also pass function as arguments to other funtions. 
+// we can also pass function as arguments to other funtions. A callback is a function passed as an argument to another function.
 let cal=function(x,y){
     return x*y;
 }
 console.log(cal(4,2));
 
-let total=function(x,y,z,mul){   // function is passed as argument.s
+let total=function(x,y,z,mul){   // function is passed as arguments.
     let cal1=mul(x,y);
     return mul(cal1,z);
 }
