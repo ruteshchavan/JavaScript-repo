@@ -10,6 +10,9 @@ rejected: meaning that the operation failed.
 
 then() and catch() functions are executed when pass function to it when promise will be fullfill or rejected.
 
+AJAX - Asynchronous JS and XML.
+JSON - Javascript Object Notation. 
+json() method - 
 
 */
 
