@@ -14,18 +14,18 @@
 */
 
 //push()
-let food=["potato","apple","tomato"];
-food.push("banana","cherry","melon");
+let food = ["potato", "apple", "tomato"];
+food.push("banana", "cherry", "melon");
 
 //pop()
-let del=food.pop();
+let del = food.pop();
 console.log(del);
 
 //toString()
 console.log(food.toString());
 
 //concat()
-let dish=["grapes","chickoo"];
+let dish = ["grapes", "chickoo"];
 console.log(dish.concat(food));
 
 //unShift()
@@ -33,32 +33,32 @@ food.unshift("pineapple");
 console.log(food);
 
 //shift()
-let y=food.shift();
+let y = food.shift();
 console.log(food);
 
-let num=[7,2,9,5,1];
+//sort
+let num = [7, 2, 9, 5, 1];
 console.log(num);
 num.sort();
 console.log(num);
 
 //map()
-let x=[10,20,30];
-let k=x.map((value) => {
-   return value;
-})
+let x = [10, 20, 30];
+let k = x.map((value) => {
+  return value;
+});
 console.log(k);
 
 //filter()
-let a=[1,2,3,4,5,6];
-let p =a.filter((val)=>{
-   return val%2===0
-})
-console.log(p)
+let a = [1, 2, 3, 4, 5, 6];
+let p = a.filter((val) => {
+  return val % 2 === 0;
+});
+console.log(p);
 
 //reduce()
-let z=[11,22,33,44];
-let output=z.reduce((result,value) => {
-        return result + value;
-})
+let z = [11, 22, 33, 44];
+let output = z.reduce((result, value) => {
+  return result + value;
+});
 console.log(output);
-
