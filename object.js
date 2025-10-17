@@ -54,5 +54,8 @@ to update any key - student[name]= "raja singh";
 
 Autoboxing : automatic conversion of primitives to object.  
 
+Object destructuring in js is a feature that allows you to extract the properties of an object into variables.
+It is used to assign the properties of an object to variable in a single statement.
+
 
 */
